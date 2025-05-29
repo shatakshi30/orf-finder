@@ -25,7 +25,6 @@ The tool supports:
 1. Clone this repository:
    ```bash
    git clone https://github.com/shatakshi30/orf-finder.git
-   cd orf-finder
    ```
    
 2. Make sure you have a FASTA file, e.g., sequence.fasta.
@@ -36,7 +35,7 @@ The tool supports:
 python "final code.ipynb"
 ```
 
-When prompted, enter:
+4. When prompted, enter:
 Enter FASTA file: sequence.fasta
 Enter minimum length in bp for ORFs: 300
 
