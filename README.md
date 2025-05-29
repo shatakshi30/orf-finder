@@ -21,24 +21,33 @@ The tool supports:
 - **FASTA-Style Output Formatting**
 
 ## Results
-
-Sample input:
-FASTA file: sequence.fasta
+**Sample input:**
+FASTA file: sequence.fasta  
 Minimum ORF length: 300
 
-
 Sample output:
-Test1 | FRAME = 1 POS = 25 LEN = 996
-ATG GCT CCC AAG GGT TTA ...
+```text 
+>Test1 | FRAME = 1 POS = 25 LEN = 996  
+ATG GCT CCC AAG GGT TTA ATC TTT TTG GCT GTG TTA TGC TTC TCA  
+GCA CTG TCA CTG AGT CGT TGT CTT GCG GAG GAT AAT GGA CTT GTT  
+ATG AAC TTC TAC AAG GAA TCA TGC CCT CAG GCT GAA GAC ATC ATC  
+AAA GAA CAA GTC AAG CTT CTC TAC AAG CGC CAC AAG AAC ACT GCT  
+TTC TCC TGG CTC AGA AAC ATC TTC CAT GAC TGT GCT GTT CAG AGT  
 ...
-Test1 | FRAME = 6 POS = -933 LEN = 324
-ATG GCA CCA AAC TTG ...
 
+>Test1 | FRAME = 6 POS = -933 LEN = 324  
+ATG GCA CCA AAC TTG TCA AGA ACT GCA GAA ATG GAT TCA TTG TGG  
+TCT GGG AGG AAC TGC TCT ACC ACA TCG GCT CTG CTC CTT CTA CCA  
+TCC CTT CTT CCT GTT TTA AGA GGG ATA TGG GGA CCT CCT AGC GAA  
+...
+
+``
+` 
 
 ## Files in This Repository
 
-- 'sequence.fasta': Input sequence file
-- `final code pcc.ipynb`: Main code for ORF detection.
+- `sequence.fasta`: Input sequence file
+- `final code.ipynb`: Main code for ORF detection.
 - `output.txt`: Example output with ORFs found in a sample FASTA file.
 
 
