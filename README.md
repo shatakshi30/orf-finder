@@ -12,6 +12,34 @@ The tool supports:
 - User-defined minimum ORF length
 - Outputs in FASTA-like format with codons grouped
 
+## System Requirements
+
+- Python 3.6 or higher
+- Any operating system (macOS, Linux, Windows)
+- Terminal or command-line access
+- Optional: Jupyter Notebook to open `.ipynb` file
+
+---
+
+## How to Run the Tool
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/shatakshi30/orf-finder.git
+   cd orf-finder
+   ```
+   
+2. Make sure you have a FASTA file, e.g., sequence.fasta.
+
+3. Run the script:
+
+```bash
+python "final code.ipynb"
+```
+
+When prompted, enter:
+Enter FASTA file: sequence.fasta
+Enter minimum length in bp for ORFs: 300
+
 ## Methods Used
 
 - **FASTA File Parsing**
