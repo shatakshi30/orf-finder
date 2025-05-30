@@ -37,6 +37,7 @@ python "final code.ipynb"
 
 4. When prompted, enter:
 Enter FASTA file: sequence.fasta
+
 Enter minimum length in bp for ORFs: 300
 
 ## Methods Used
